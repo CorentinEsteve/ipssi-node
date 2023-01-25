@@ -16,7 +16,6 @@ specifiers:
   prisma: ^4.9.0
   puppeteer: ^19.5.2
   ts-node: ^10.9.1
-  tsc: ^2.0.4
   tslib: ^2.4.1
   typescript: ^4.9.4
   uuid: ^9.0.0
@@ -29,7 +28,7 @@ dependencies:
   jsonwebtoken: 9.0.0
   lodash.merge: 4.6.2
   puppeteer: 19.5.2
-  tsc: 2.0.4
+  typescript: 4.9.4
   uuid: 9.0.0
 
 devDependencies:
@@ -42,7 +41,6 @@ devDependencies:
   prisma: 4.9.0
   ts-node: 10.9.1_awa2wsr5thmg3i7jqycphctjfq
   tslib: 2.4.1
-  typescript: 4.9.4
 
 packages:
 
@@ -1512,11 +1510,6 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /tsc/2.0.4:
-    resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
-    hasBin: true
-    dev: false
-
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
     dev: true
@@ -1533,7 +1526,6 @@ packages:
     resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
 
   /unbzip2-stream/1.4.3:
     resolution: {integrity: sha512-mlExGW4w71ebDJviH16lQLtZS32VKqsSfk80GCfUlwT/4/hNRFsoscrF/c++9xinkMzECL1uL9DDwXqFWkruPg==}
